@@ -25,4 +25,5 @@ Este projeto representa minha primeira solução para o exercício, antes de com
 
 ---
 👨‍💻
-Desenvolvido por Wellington Espinarde 🚀
+
+Desenvolvido por Wellington Espinarde 
