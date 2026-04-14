@@ -1,18 +1,28 @@
-## Getting Started
+# Processamento de Produtos (Versão Inicial)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Descrição
+Este projeto foi desenvolvido durante meus estudos em Java sobre manipulação de arquivos.
 
-## Folder Structure
+A proposta do exercício era trabalhar com arquivos CSV, porém nesta primeira versão optei por criar os dados manualmente via entrada do usuário, armazenar em memória e gerar os arquivos a partir disso.
 
-The workspace contains two folders by default, where:
+## 🚀 Tecnologias utilizadas
+- Java
+- Programação Orientada a Objetos
+- Manipulação de arquivos (FileWriter, BufferedWriter)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 O que o programa faz
+- Recebe dados de produtos via teclado
+- Armazena os dados em uma lista
+- Gera um arquivo `.csv` com os dados informados
+- Cria um segundo arquivo `summary.csv` contendo:
+  - Nome do produto
+  - Valor total (preço × quantidade)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ⚠️ Observação
+Nesta versão, os dados não são lidos de um arquivo CSV existente, mas sim criados manualmente.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este projeto representa minha primeira solução para o exercício, antes de compreender totalmente o objetivo proposto.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+👨‍💻
+Desenvolvido por Wellington Espinarde 🚀
